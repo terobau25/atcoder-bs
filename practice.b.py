@@ -1,8 +1,6 @@
-s=input()
-hell=s.split()
-a=int(hell[0])
-b=int(hell[1])
+
+a,b=map(int,input().split())
 if a*b/2==0:
-    print(c,"even")
+    print(even)
 else:
-    print(c,"odd")
+    print(odd)
